@@ -1,7 +1,7 @@
 ﻿namespace aula10_exercicio
 {
     public class Calculadora
-    {     
+    {
         //variáveis exercício 6
         public string nomeDoUsuario;
         public int idadeDoUsuario = 0;
