@@ -31,9 +31,13 @@
 
         // 1.4. Adiciona um novo filme a lista pelo seu nome.
 
-        public void adicionarUmNovoFilmePeloSeuNome()
+        public void adicionaUmNovoFilmePeloSeuNome()
         {
-            
+            Console.WriteLine("Qual filme deseja inserir?");
+            string nomeDoFilme = Console.ReadLine();
+            this.listaDeFilmes = this.listaDeFilmes.Append(nomeDoFilme).ToArray();
+            String.Join("; ", this.listaDeFilmes);
+            ApresentarTodosOsFilmesSeparadosPorPontoVirgula();
         }
 
         // 1.5. Atualiza um filme a partir do seu índice na lista.
@@ -84,7 +88,7 @@
                     usuario1.buscarFilmePeloIndice();
                     break;
                 case 4:
-                    usuario1.adicionarUmNovoFilmePeloSeuNome();
+                    usuario1.adicionaUmNovoFilmePeloSeuNome();
                     break;
                 case 5:
                     usuario1.atualizarUmFilmePeloSeuIndice();
