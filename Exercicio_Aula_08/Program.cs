@@ -31,6 +31,10 @@
 
         // 1.4. Adiciona um novo filme a lista pelo seu nome.
 
+        public void adicionarUmNovoFilmePeloSeuNome()
+        {
+            
+        }
 
         // 1.5. Atualiza um filme a partir do seu índice na lista.
         public void atualizarUmFilmePeloSeuIndice()
@@ -78,6 +82,9 @@
                     break;
                 case 3:
                     usuario1.buscarFilmePeloIndice();
+                    break;
+                case 4:
+                    usuario1.adicionarUmNovoFilmePeloSeuNome();
                     break;
                 case 5:
                     usuario1.atualizarUmFilmePeloSeuIndice();
