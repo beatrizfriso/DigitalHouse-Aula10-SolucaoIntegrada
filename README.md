@@ -4,6 +4,7 @@
 - ## 🔗 [Atividade 7](./Exercicio_Aula_07/Program.cs)
 - ## 🔗 [Atividade 8](./Exercicio_Aula_08/Program.cs)
 - ## 🔗 [Atividade 9](./Exercicio_Aula_09/Program.cs)
+- ## 🔗 [Atividades 6 a 10](./Aula10_solucao_integrada/Program.cs)
 
 # 📌 Colaboradores
 
